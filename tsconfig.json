@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ui/shared": ["shared/src/index.ts"],
+      "@ui/shared/*": ["shared/src/*"]
+    }
+  },
+  "extends": "./tsconfig.base.json",
+}
